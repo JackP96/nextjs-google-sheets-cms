@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "ipad-lasso-forms",
+  "private_key_id": "ee6464f2296f7fc9798d2742b5e797b477a30084",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCWpT4q+0fqBTE8\nWxG+jRBgc4DtsW78H9Z6P7rZ/c0J+hPFbNx5PpVr2KdHXEuk21uheSQ6mCiIYUsf\nW8E/VcLHoR9zVCnHnGVqnWT52+FFcOkwKzDK+HuYIpp7PfNVnB8YSLoNQOiLBoNF\nmYRazsxVE/Lw4J9Sqqi9bNDtiET8cvv1WuSl4eor2Q5SdKif5KfFclZeuaKK4tAP\nGwn4Z/57ZMs7Qz4e0MsIGtAIsVgd5dZunVSiw7mWGWCMl1AU4K7NtKo5peQLSdKT\nEP4fZGFunrOShpWsrzUYlhUpFmYQ2fOsWEa/AKQc120lP88ijqhi255BBZrgVX6N\n755A0KZpAgMBAAECggEAEgxJxI0+lkRJO+uGtpMwqjeIU6HRc8IOOG70cDuykg6M\nihdy2hFEBkvKbbeaZe20XoX0j9MNLxql7QO5hSCdkXxll9P2XfBoK5PgBjnANUkz\n3MYd5kFLEGTb6GY5hhEKXibPaHlVatuMxFzCMT1rmElHrrFgkR86UFhuNvj/l9Vx\nLMa9+Kyw2lXRnT6NTz5CIvVBCUsMxaYOyGgzhaFhegMuF/gNEnI9VpPEgnP9FoZD\neteUWZq4uTO485zzM2g5cizGs8lYahs4UPC+fuWWaI8mdqdHwDq/vVCFMSGa2e9l\nywwrVQK1ZxWTCp4Eke/qHSm5vRigTZ6GDnQI6yJqMQKBgQDNjt5VuLr7zZoNgI/s\ninTFz2pLx3zsmXuGxFJ9FWNa/fsP5GEGAj8mCTqaMoEn3DI5ASYvQT4R0XDx+qIg\nGI3qFtf7DBsWx1APLoT4PqYYp0d1slx6oMlZStC/+vgG0kESf+nzqoPOnYy/xAGc\n06XjQ8BsNQOTsVCdwyJSoQvYmQKBgQC7nMWkUE9ZDMgdpxLyMJYeo7hleZFwqekz\nt5PkV5qAsiywMBNEf1WyD00TGfP/tTJJx+SFOo6fiK7uecStfWuITAaEHPkuvz7g\nJAx93/2c8nE7IpWls6hE8ZtveqPwFekdzcbQRrnhh/LyM8DcqUP8+ZVcRIZCf/x9\nJybdX7bOUQKBgDZhh5xyBLW9DPZpfqn7by0t1Fc77WbCrBVZNuF0mRZnftYTez+V\ntJMheel1VwnujTLbhPiXcA5StGiv/9gx5sl5RaZa64e5Lwr1KaRrHpIDHzqZ9zFR\n/DKtQlCn2pojYae9Q219POWadLP+7NZKf+aB9BQsakfWbxdtmlT12iZxAoGBALK2\nV5550dvlzQpSCD4kAhwVoKUo9F35vGbDTGGLAWXuU5tRcEkjcqI26Rh09HR0Sf72\nJryyVwGo1dncrHkGq9Qdd2eJoePh0Sb5r9yH7bH/T9Ug0KQTSwrBi2rZzCf69yCo\nz+W+OXqYYdhNbD3GDzl/FcPaknnuKLme/eqKLjzBAoGAQpAwVhPGqVpK0ZaonrH6\nd0IZYsq1IKnUP4nvJ00SubPGl4U35tJHtvazPGN2cnk+UeIvC4grGBdj2rltDZqL\nuMKDD5SVYrM+bMugWKb/4wjeq8jyx524bWrqNU9g7Et7fYFZxaYlj7njY6hQs5QQ\n/b18ZaO7Gg8A8kveh73J/Y8=\n-----END PRIVATE KEY-----\n",
+  "client_email": "ipad-forms@ipad-lasso-forms.iam.gserviceaccount.com",
+  "client_id": "106719743307152269507",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ipad-forms%40ipad-lasso-forms.iam.gserviceaccount.com"
+}
