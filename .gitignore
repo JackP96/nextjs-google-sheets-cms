@@ -29,6 +29,7 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
+ipad-lasso-forms-ee6464f2296f.json
 
 # vercel
 .vercel

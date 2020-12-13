@@ -1,10 +1,21 @@
 import Nav from "../components/nav";
 import Link from "next/link";
 import { getWhyNextReasons } from "../lib/api";
+import Head from "next/head";
 
 export default function IndexPage({ reasons }) {
 	return (
 		<div>
+			<Head>
+				<link
+					href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700"
+					rel="stylesheet"
+				/>
+				<link
+					href="https://p.typekit.net/p.css?s=1&k=luw7vlc&ht=tk&f=139.169.173.175.12047&a=4087421&app=typekit&e=css"
+					rel="stylesheet"
+				/>
+			</Head>
 			<div className="container mx-auto py-20 px-8">
 				<h1 className="text-5xl text-center text-accent-1 mb-16">
 					iPad Form Links

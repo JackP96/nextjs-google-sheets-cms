@@ -8,7 +8,11 @@
 
 /* Write you own custom component styles here */
 .btn-blue {
-  @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
+	@apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
+}
+
+html {
+	@apply font-montserrat;
 }
 
 /* Start purging... */
@@ -18,13 +22,17 @@
 /* Your own custom utilities */
 
 .markdown a {
-  @apply text-blue-600;
+	@apply text-blue-600;
 }
 
 .markdown a:hover {
-  @apply text-blue-400 underline;
+	@apply text-blue-400 underline;
 }
 
 .inline-p p {
-  display: inline;
+	display: inline;
+}
+
+input {
+	@apply bg-gray-200 p-8 rounded w-full;
 }

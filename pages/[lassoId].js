@@ -1,30 +1,34 @@
 import Nav from "../components/nav";
 import { getWhyNextReasons } from "../lib/api";
+import ContactForm from "../components/contactUsForm";
+import Basic from "../components/formikForm";
 
 export default function IdPage({ reasons }) {
+	const bgImage =
+		"https://davidsonhomesllc.info/wp-content/uploads/2019/03/For-Web-RA_Savannah_C_3045_01-.jpg";
 	return (
-		<div>
-			<div className=" bg-primary container mx-auto py-20 px-8">
-				<h1 className="text-5xl text-center text-accent-1 mb-16">
-					Welcome to {reasons.community}
-				</h1>
+		<>
+			<style jsx>{`
+				.headerImage {
+					background:
+									/* top, transparent red, faked with gradient */ linear-gradient(
+							#9bae88ee,
+							#9bae88
+						),
+						/* bottom, image */ url(${bgImage});
+					background-size: cover;
+				}
+			`}</style>
+			<div className=" bg-primary headerImage min-h-screen">
+				<div className="  container mx-auto py-8 px-4 md:px-8">
+					<h1 className="text-3xl leading-tight md:text-4xl text-white font-bold text-center text-accent-1 mb-16">
+						Welcome to {reasons.community}!
+					</h1>
 
-				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-					<a
-						className="border border-grey-200 rounded p-4 hover:shadow-lg hover:border-transparent"
-						key={reasons.id}
-						href={"/" + reasons.id}
-						target="_blank"
-					>
-						<h3 className="font-bold mb-2">{reasons.community}</h3>
-						<div dangerouslySetInnerHTML={{ __html: reasons.description }} />
-						<span className="text-blue-600 hover:text-blue-400 hover:underline mt-4 block">
-							Documentation →
-						</span>
-					</a>
+					<Basic id={reasons.id} community={reasons.community} />
 				</div>
 			</div>
-		</div>
+		</>
 	);
 }
 
@@ -56,23 +60,3 @@ export async function getStaticProps({ params }) {
 		revalidate: 1, // In seconds
 	};
 }
-
-/*export async function getStaticProps({ params }) {
-	//console.log("Static Props");
-	console.log(params.state.replace("-", " "));
-	const adjState = await params.state.replace("-", " ");
-	console.log();
-	// Pass post data to the page via props
-
-	const stateDetails = stateData.states.filter((o) =>
-		Object.values(o).includes(adjState)
-	)[0];
-
-	console.log(stateDetails);
-	const data = await require("communitiesCombined.json");
-	const adjData = data.communities.filter((o) =>
-		stateDetails.Communities.includes(o.SubdivisionName)
-	);
-
-	return { props: { stateDetails, data, adjData } };
-}*/
