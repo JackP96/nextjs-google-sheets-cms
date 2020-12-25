@@ -1,7 +1,7 @@
 import Nav from "../components/nav";
 import { getWhyNextReasons } from "../lib/api";
 import ContactForm from "../components/contactUsForm";
-import Basic from "../components/formikForm";
+import Basic from "../components/formikForm3";
 
 export default function IdPage({ reasons }) {
 	const bgImage =
