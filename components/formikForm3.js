@@ -237,7 +237,15 @@ const Basic = (props) => {
 						formdata.append("Question[59708]", values.agentCompany);
 						formdata.append("Question[59707]", values.agentPhone);
 						formdata.append("Question[59704]", values.howHeard);
-						formdata.append("AgentPhone", values.agentPhone);
+						formdata.append("Question[59709]", values.homebuyer);
+						formdata.append("Question[59710]", values.ownOrRent);
+						formdata.append("Question[59711]", values.preapproved);
+						formdata.append("Question[59713]", values.age);
+						formdata.append("Question[59714]", values.price);
+						formdata.append("Question[59715]", values.intentions);
+						formdata.append("Question[59716]", values.bedrooms);
+						formdata.append("Question[59717]", values.bathrooms);
+						formdata.append("Question[62359]", values.initials);
 						formdata.append("ProjectID", "10362");
 						formdata.append("ClientID", "1634");
 						formdata.append("LassoUID", "Qi}zDkqwcF");
