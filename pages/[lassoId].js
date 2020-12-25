@@ -35,8 +35,8 @@ export default function IdPage({ reasons }) {
 export async function getStaticPaths() {
 	// Get the paths we want to pre-render based on posts
 	const reasons = await getWhyNextReasons();
-	const paths = reasons.slice(0, 30).map(({ slug, id, community }) => ({
-		params: { lassoId: slug },
+	const paths = reasons.map(({ slug, id, community }) => ({
+		params: { lassoId: slug, community: community, id: id },
 	}));
 
 	// { fallback: false } means other routes should 404.
@@ -46,7 +46,7 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
 	console.log(params);
 	const rawReasons = await getWhyNextReasons();
-	const reasons = rawReasons.filter((o) =>
+	const reasons = await rawReasons.filter((o) =>
 		Object.values(o).includes(params.lassoId)
 	)[0];
 
@@ -57,6 +57,6 @@ export async function getStaticProps({ params }) {
 		// Next.js will attempt to re-generate the page:
 		// - When a request comes in
 		// - At most once every second
-		revalidate: 1, // In seconds
+		//revalidate: 10, // In seconds
 	};
 }
