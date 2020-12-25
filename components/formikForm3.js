@@ -233,9 +233,9 @@ const Basic = (props) => {
 						formdata.append("ContactPreference", values.contactPreference);
 						formdata.append("PostalCode", values.zipCode);
 						formdata.append("Question[59705]", values.realtor);
-						formdata.append("AgentName", values.agentName);
-						formdata.append("AgentCompany", values.agentCompany);
-						formdata.append("AgentPhone", values.agentPhone);
+						formdata.append("Queston[59706]", values.agentName);
+						formdata.append("Question[59708]", values.agentCompany);
+						formdata.append("Question[59707]", values.agentPhone);
 						formdata.append("Question[59704]", values.howHeard);
 						formdata.append("AgentPhone", values.agentPhone);
 						formdata.append("ProjectID", "10362");
