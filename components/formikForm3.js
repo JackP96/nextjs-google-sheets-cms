@@ -224,6 +224,12 @@ const Basic = (props) => {
 						var formdata = new FormData();
 						formdata.append("FirstName", values.firstName);
 						formdata.append("LastName", values.lastName);
+						formdata.append("Emails[Primary]", values.email);
+						formdata.append("Phones[Home]", values.phone);
+						formdata.append("Address", values.streetAddress);
+						formdata.append("City", values.city);
+						formdata.append("PostalCode", values.zipCode);
+						formdata.append("Country", "USA");
 						formdata.append("ProjectID", "10362");
 						formdata.append("ClientID", "1634");
 						formdata.append("LassoUID", "Qi}zDkqwcF");
