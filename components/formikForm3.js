@@ -232,7 +232,7 @@ const Basic = (props) => {
 						formdata.append("Country", "US");
 						formdata.append("ContactPreference", values.contactPreference);
 						formdata.append("PostalCode", values.zipCode);
-						formdata.append("Question[59705]", values.realtor);
+						/*formdata.append("Question[59705]", values.realtor);
 						formdata.append("Queston[59706]", values.agentName);
 						formdata.append("Question[59708]", values.agentCompany);
 						formdata.append("Question[59707]", values.agentPhone);
@@ -245,7 +245,7 @@ const Basic = (props) => {
 						formdata.append("Question[59715]", values.intentions);
 						formdata.append("Question[59716]", values.bedrooms);
 						formdata.append("Question[59717]", values.bathrooms);
-						formdata.append("Question[62359]", values.initials);
+						formdata.append("Question[62359]", values.initials);*/
 						formdata.append("ProjectID", "10362");
 						formdata.append("ClientID", "1634");
 						formdata.append("LassoUID", "Qi}zDkqwcF");
