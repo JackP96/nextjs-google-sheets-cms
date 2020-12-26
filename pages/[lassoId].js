@@ -36,7 +36,7 @@ export async function getStaticPaths() {
 	// Get the paths we want to pre-render based on posts
 	const reasons = await getWhyNextReasons();
 	const paths = reasons.map(({ slug, id, community }) => ({
-		params: { lassoId: slug, community: community, id: id },
+		params: { lassoId: slug },
 	}));
 
 	// { fallback: false } means other routes should 404.
